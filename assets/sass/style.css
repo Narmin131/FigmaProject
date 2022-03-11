@@ -1,0 +1,96 @@
+body {
+  background-image: url("../img/Gradient color.png");
+  background-position: top;
+  background-size: cover;
+  background-color: black;
+}
+
+.bg-con {
+  width: 100%;
+  height: 110vh;
+}
+
+.blur-bg {
+  width: 100%;
+  height: 50px;
+}
+
+nav {
+  -webkit-transform: translateY(-50px);
+          transform: translateY(-50px);
+}
+
+.second {
+  width: 100%;
+  height: 30vh;
+}
+
+.second .second-top {
+  height: 20vh;
+}
+
+.second .second-top .left-text h1 {
+  color: white;
+  font-size: 2.7rem;
+}
+
+.second .second-top .right-icons {
+  height: 20vh;
+}
+
+.second .second-top .right-icons span {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.second .second-top .right-icons button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px 20px;
+  height: 40px;
+  margin-left: .5rem;
+}
+
+.boxes {
+  width: 100%;
+  height: 100vh;
+}
+
+.boxes .item1 {
+  height: 57vh;
+  border: 1px solid white;
+  padding-left: 1.3rem;
+  width: 250px;
+  margin-top: 1.5rem;
+}
+
+.boxes .item1 h1 {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: .6rem;
+}
+
+.boxes .item1 span {
+  color: white;
+}
+
+.boxes .item1 .btn-1 {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px 15px;
+  color: white;
+  margin-top: .8rem;
+}
+
+.boxes .item1 .btn-2 {
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px 15px;
+  color: white;
+  margin-left: .1rem;
+  background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+}
+/*# sourceMappingURL=style.css.map */

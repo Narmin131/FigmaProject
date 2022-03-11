@@ -1,0 +1,97 @@
+@import "media";
+
+body{
+    background-image: url("../img/Gradient\ color.png");
+    background-position: top;
+    background-size: cover;
+    background-color: black;
+}
+
+.bg-con{
+    width: 100%;
+    height: 110vh;
+    
+}
+.blur-bg{
+    width: 100%;
+    height: 50px;
+}
+nav{
+    transform: translateY(-50px);
+}
+.second{
+    width: 100%;
+    height: 30vh;
+    .second-top{
+        height: 20vh;
+        .left-text{
+            h1{
+                color: white;
+                font-size: 2.7rem;
+
+            }
+
+        }
+        .right-icons{
+            height: 20vh;
+            span{
+              color:white;
+              font-size: 1.1rem;
+            }
+            button{
+                color: white;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 5px 20px;
+                height:40px ;
+                margin-left: .5rem;
+            }
+        }
+
+    }
+}
+
+.boxes{
+    width: 100%;
+    height: 100vh;
+    .item1{
+        height: 57vh;
+       border: 1px solid white;
+    //    position: relative
+       padding-left: 1.3rem;
+       width: 250px;
+       margin-top: 1.5rem;
+       .photo{
+        //    position: absolute;
+        //    top: -10px;
+        //    right: -15px;
+       }
+       h1{
+        color: white;
+        font-size:1.3rem ;
+        margin-top: .6rem;
+       }
+       .vector{
+       }
+       span{
+           color: white;
+       }
+       .btn-1{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 15px;
+        color: white;
+        margin-top: .8rem;
+       }
+       .btn-2{
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 15px;
+        color: rgb(255, 255, 255);
+        margin-left: .1rem;
+        background: linear-gradient(99.74deg, #06DBAC 5.23%, #BD00FF 92.7%);
+       }
+    }
+}
