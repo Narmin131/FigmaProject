@@ -1,78 +1,121 @@
 @import "media";
-
 body{
     background-image: url("../img/Gradient\ color.png");
     background-position: top;
     background-size: cover;
     background-color: black;
 }
-
-.bg-con{
+// Header
+.slider{
     width: 100%;
-    height: 110vh;
-    
+    height: auto;
+    border-bottom: 2px solid wheat;
 }
-.blur-bg{
-    width: 100%;
-    height: 50px;
+header{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
 }
 nav{
-    transform: translateY(-50px);
+    border-bottom: 1px solid white;
 }
+
+// Main section
+.main{
+    width: 100%;
+    
+        .left{
+         padding-top: 6rem;
+        h1{
+            color: white;
+            font-size: 3.3rem;
+         }
+         h2{
+             color: 3rem;
+             color: white;
+         }
+         p{
+          color: white;
+          margin-top:1rem ;
+         }
+         button{
+             color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 50px;
+            padding: 7px 28px;
+            }
+      }
+}
+
+// Second section
 .second{
     width: 100%;
-    height: 30vh;
-    .second-top{
-        height: 20vh;
-        .left-text{
-            h1{
-                color: white;
-                font-size: 2.7rem;
-
-            }
-
-        }
-        .right-icons{
-            height: 20vh;
-            span{
-              color:white;
-              font-size: 1.1rem;
-            }
-            button{
-                color: white;
-                background-color: transparent;
-                border: 1px solid white;
-                border-radius: 50px;
-                padding: 5px 20px;
-                height:40px ;
-                margin-left: .5rem;
-            }
-        }
-
+   border-bottom: 1px solid white;
+}
+ 
+// Third section
+.third{
+    width: 100%;
+    border-bottom: 1px solid white;
+    .text{
+      margin: 2rem 0;
+          h1{
+     color: white;
+     font-size:3rem;
+      }
     }
+    
+    .item1{
+        color: white;
+        margin-bottom: 4rem;
+       h1{
+         font-size: 3rem;
+       }
+   }
+}
+
+// Fourth section
+.four{
+    border-bottom: 1px solid bottom;
+    width: 100%;
+    .lft{
+        h1{
+            font-size: 3.4rem;
+            margin: 1.7rem 0;
+        }
+    }
+width: 100%;
+color: white;
+.right-icons{
+    span{
+     font-size: 1.1rem;
+    }
+    button{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 20px;
+        margin-left: .4rem;
+        font-size: 1.1rem;
+    }
+}
 }
 
 .boxes{
     width: 100%;
-    height: 100vh;
     .item1{
-        height: 57vh;
        border: 1px solid white;
-    //    position: relative
-       padding-left: 1.3rem;
-       width: 250px;
        margin-top: 1.5rem;
+       padding: 0 0 10px 20px ;
        .photo{
-        //    position: absolute;
-        //    top: -10px;
-        //    right: -15px;
+       width: 100%;
+       height: 70%;
        }
        h1{
         color: white;
         font-size:1.3rem ;
         margin-top: .6rem;
-       }
-       .vector{
        }
        span{
            color: white;
@@ -86,7 +129,7 @@ nav{
         margin-top: .8rem;
        }
        .btn-2{
-        border: 1px solid white;
+        border: 1px solid transparent;
         border-radius: 50px;
         padding: 5px 15px;
         color: rgb(255, 255, 255);

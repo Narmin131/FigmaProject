@@ -1,3 +1,4 @@
+@import url(c:\Users\Hp\Desktop\FigmaProject\assets\sass\media.css);
 body {
   background-image: url("../img/Gradient color.png");
   background-position: top;
@@ -5,65 +6,120 @@ body {
   background-color: black;
 }
 
-.bg-con {
+.slider {
   width: 100%;
-  height: 110vh;
+  height: auto;
+  border-bottom: 2px solid wheat;
 }
 
-.blur-bg {
-  width: 100%;
-  height: 50px;
+header {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
 }
 
 nav {
-  -webkit-transform: translateY(-50px);
-          transform: translateY(-50px);
+  border-bottom: 1px solid white;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .left {
+  padding-top: 6rem;
+}
+
+.main .left h1 {
+  color: white;
+  font-size: 3.3rem;
+}
+
+.main .left h2 {
+  color: 3rem;
+  color: white;
+}
+
+.main .left p {
+  color: white;
+  margin-top: 1rem;
+}
+
+.main .left button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 7px 28px;
 }
 
 .second {
   width: 100%;
-  height: 30vh;
+  border-bottom: 1px solid white;
 }
 
-.second .second-top {
-  height: 20vh;
+.third {
+  width: 100%;
+  border-bottom: 1px solid white;
 }
 
-.second .second-top .left-text h1 {
+.third .text {
+  margin: 2rem 0;
+}
+
+.third .text h1 {
   color: white;
-  font-size: 2.7rem;
+  font-size: 3rem;
 }
 
-.second .second-top .right-icons {
-  height: 20vh;
-}
-
-.second .second-top .right-icons span {
+.third .item1 {
   color: white;
+  margin-bottom: 4rem;
+}
+
+.third .item1 h1 {
+  font-size: 3rem;
+}
+
+.four {
+  border-bottom: 1px solid bottom;
+  width: 100%;
+  width: 100%;
+  color: white;
+}
+
+.four .lft h1 {
+  font-size: 3.4rem;
+  margin: 1.7rem 0;
+}
+
+.four .right-icons span {
   font-size: 1.1rem;
 }
 
-.second .second-top .right-icons button {
+.four .right-icons button {
   color: white;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 50px;
   padding: 5px 20px;
-  height: 40px;
-  margin-left: .5rem;
+  margin-left: .4rem;
+  font-size: 1.1rem;
 }
 
 .boxes {
   width: 100%;
-  height: 100vh;
 }
 
 .boxes .item1 {
-  height: 57vh;
   border: 1px solid white;
-  padding-left: 1.3rem;
-  width: 250px;
   margin-top: 1.5rem;
+  padding: 0 0 10px 20px;
+}
+
+.boxes .item1 .photo {
+  width: 100%;
+  height: 70%;
 }
 
 .boxes .item1 h1 {
@@ -86,7 +142,7 @@ nav {
 }
 
 .boxes .item1 .btn-2 {
-  border: 1px solid white;
+  border: 1px solid transparent;
   border-radius: 50px;
   padding: 5px 15px;
   color: white;
