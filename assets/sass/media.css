@@ -1,6 +1,11 @@
-/* @media (max-width: 768px) { 
+@media (max-width:992px) {
+ .cl{
+     display: flex;
+     justify-content: flex-start !important;
+ }
+ .rght{
+     display: flex;
+     flex-direction: row !important;
+ }
+};
 
-    .lft{
-        background-color: darkorange;
-    }
- } */
