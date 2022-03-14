@@ -363,13 +363,14 @@ color: white;
         }
     .right-icons{
         span{
-         font-size: 1rem;
+         font-size: .8rem;
         }
         button{
             border-radius: 50px;
-            padding: 5px 18px;
+            padding: 5px 12px;
             margin-left: .3rem;
-            font-size: .8rem;
+            font-size: .7rem;
+           
         }
     }
     }
@@ -405,5 +406,34 @@ color: white;
     .rght{
         align-items: flex-start !important;
     }
+    .social-media{
+        width: 100%;
+        .bottom{
+            margin-top: .3rem;
+            p{
+           margin-right: 1rem;
+            }
+        }
+        h1{
+            font-size: 2rem !important;
+            margin-bottom: 1.3rem;
+        }
+        a{
+            text-decoration: none;
+            font-size: .8rem !important;
+            padding: 0 8px !important;
+            &:nth-child(5){
+                border: none !important;
+            }
+            
+        }
+        .zero{
+            padding-left: 0;
+        }
+        
+    }
+    .right{
+        margin-top: 3rem !important; 
+     }
  }
 
