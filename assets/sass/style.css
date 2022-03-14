@@ -1,4 +1,3 @@
-@import url(c:\Users\Hp\Desktop\FigmaProject\assets\sass\media.css);
 body {
   background-image: url("../img/Gradient color.png");
   background-position: top;
@@ -9,7 +8,6 @@ body {
 .slider {
   width: 100%;
   height: auto;
-  border-bottom: 2px solid wheat;
 }
 
 header {
@@ -43,6 +41,7 @@ nav {
 .main .left p {
   color: white;
   margin-top: 1rem;
+  font-size: 1.1rem;
 }
 
 .main .left button {
@@ -54,13 +53,23 @@ nav {
 }
 
 .second {
+  color: white;
+  padding-top: 3rem;
   width: 100%;
-  border-bottom: 1px solid white;
+}
+
+.second h1 {
+  font-size: 3.5rem;
+  padding-bottom: .5rem;
+}
+
+.second p {
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 .third {
   width: 100%;
-  border-bottom: 1px solid white;
 }
 
 .third .text {
@@ -82,7 +91,6 @@ nav {
 }
 
 .four {
-  border-bottom: 1px solid bottom;
   width: 100%;
   width: 100%;
   color: white;
@@ -109,7 +117,6 @@ nav {
 
 .boxes {
   width: 100%;
-  border-bottom: 1px solid white;
   padding-bottom: 3rem;
 }
 
@@ -156,6 +163,10 @@ nav {
   padding-top: 2rem;
 }
 
+.foot .social-media {
+  width: 100%;
+}
+
 .foot .social-media .bottom {
   margin-top: .8rem;
 }
@@ -187,12 +198,10 @@ nav {
 }
 
 .foot .rght {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -208,9 +217,188 @@ nav {
   text-decoration: none;
 }
 
-.foot .rght p {
-  color: white;
-  font-size: 1.3rem;
-  margin: 0 0 0 .8rem;
+@media (min-width: 768px) and (max-width: 992px) {
+  .main {
+    width: 100%;
+  }
+  .main .left {
+    padding: 4rem 0 0 0 !important;
+  }
+  .main .left h1 {
+    font-size: 2.8rem !important;
+  }
+  .main .left h2 {
+    font-size: 2.7rem;
+  }
+  .main .left p {
+    margin-top: 1rem;
+    padding-right: 1rem !important;
+    font-size: 1.1rem;
+  }
+  .main .left button {
+    border-radius: 50px;
+    padding: 7px 28px;
+    font-weight: 700;
+  }
+  .second h1 {
+    margin-bottom: 1.3rem !important;
+    font-size: 2.7rem;
+  }
+  .second p {
+    padding-right: .8rem !important;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+  }
+  .third .text {
+    margin: 2rem 0;
+  }
+  .third .text h1 {
+    font-size: 2.4rem !important;
+  }
+  .third .item1 {
+    color: white;
+    margin-bottom: 4rem;
+  }
+  .third .item1 h1 {
+    font-size: 3rem;
+  }
+  .four .lft h1 {
+    font-size: 2.3rem;
+    margin: 1.7rem 0;
+  }
+  .four .right-icons span {
+    font-size: 1.1rem;
+  }
+  .four .right-icons button {
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-left: .4rem;
+    font-size: 1.1rem;
+  }
+  .boxes {
+    padding-bottom: 3rem;
+  }
+  .boxes .item1 {
+    margin-top: 1.5rem;
+    padding: 0 0 10px 20px;
+  }
+  .boxes .item1 .photo {
+    width: 100%;
+    height: 70%;
+  }
+  .boxes .item1 h1 {
+    font-size: 1.3rem;
+    margin-top: .6rem;
+  }
+  .boxes .item1 .btn-1 {
+    padding: 5px 10px;
+    margin-top: .8rem;
+    font-size: .9rem;
+  }
+  .boxes .item1 .btn-2 {
+    font-size: .9rem;
+    padding: 4px 10px;
+    margin-left: .1rem;
+  }
+  .foot {
+    padding-top: 2rem;
+  }
+  .foot .social-media {
+    width: 100%;
+  }
+  .foot .social-media .bottom {
+    margin-top: .3rem;
+  }
+  .foot .social-media .bottom p {
+    margin-right: 1rem;
+  }
+  .foot .social-media h1 {
+    font-size: 2rem !important;
+    margin-bottom: .9rem;
+  }
+  .foot .social-media a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .foot .social-media a:nth-child(5) {
+    border: none !important;
+  }
+  .foot .social-media .zero {
+    padding-left: 0;
+  }
+  .foot .rght {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .foot .rght a {
+    font-size: 1.1rem;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .social-media h1 {
+    font-size: 2rem !important;
+  }
+  .rght {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .four .lft h1 {
+    font-size: 2.8rem;
+    margin: 1.7rem 0;
+  }
+  .four .right-icons span {
+    font-size: 1rem;
+  }
+  .four .right-icons button {
+    border-radius: 50px;
+    padding: 5px 18px;
+    margin-left: .3rem;
+    font-size: .8rem;
+  }
+  .boxes {
+    padding-bottom: 3rem;
+  }
+  .boxes .item1 {
+    margin-top: 1.5rem;
+    padding: 0 0 10px 20px;
+  }
+  .boxes .item1 h1 {
+    font-size: 1.5rem;
+  }
+  .boxes .item1 span {
+    font-size: 1.1rem;
+  }
+  .boxes .item1 .btn-1 {
+    padding: 5px 10px;
+    margin-top: .8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .boxes .item1 .btn-2 {
+    font-size: 1.1rem;
+    padding: 4px 10px;
+    margin-left: .4rem;
+    font-weight: 600;
+  }
+  .second p {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  .rght {
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
