@@ -3,6 +3,7 @@ body{
     background-position: top;
     background-size: cover;
     background-color: black;
+    scroll-behavior: smooth;
 }
 // Header
 .slider{
@@ -42,6 +43,13 @@ nav{
             border: 1px solid white;
             border-radius: 50px;
             padding: 7px 28px;
+            font-weight: 500;
+            transition: all .3s ;
+            &:hover{
+                background-color: #fff;
+                color: black;
+                
+            }
             }
       }
 }
@@ -61,8 +69,69 @@ nav{
    }
 }
  
+//Music section
+.music{
+    width: 100%;
+    .group{
+        .boxs{
+            justify-content: space-around;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            justify-content: space-around;
+           .photo2{
+            border: 1px solid white;
+            margin-bottom: .8rem;
+            padding: 0 0 10px 20px ;
+            width: 40%;
+            height: auto;
+           }
+            h1{
+             color: white;
+             font-size:1.3rem ;
+             margin-top: .6rem;
+            }
+            span{
+                color: white;
+            }
+         }
+       
+    }
+    .group-text{
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: white;
+            font-size: 3.3rem;
+         }
+         p{
+          color: white;
+          margin-top:1rem ;
+          font-size: 1.1rem;
+         }
+         button{
+             color: white;
+            background-color: transparent;
+            border: 1px solid white;
+            border-radius: 50px;
+            padding: 7px 28px;
+            width: 40%;
+            transition: all .3s ;
+            &:hover{
+                background-color: #fff;
+                color: black;
+                
+            }
+            }
+    }
+}
+
 // Third section
 .third{
+    margin-top: 3rem;
     width: 100%;
     .text{
       margin: 2rem 0;
@@ -104,6 +173,12 @@ color: white;
         padding: 5px 20px;
         margin-left: .4rem;
         font-size: 1.1rem;
+        transition: all .3s ;
+            &:hover{
+                background-color: #fff;
+                color: black;
+                
+            }
     }
 }
 }
@@ -167,10 +242,15 @@ color: white;
             color: white;
             text-decoration: none;
             font-size: 1.3rem;
+             transition: all .3s;
             border-right: 2px solid white;
             padding: 0 18px;
             &:nth-child(5){
                 border: none !important;
+            }
+           
+            &:hover{
+                opacity: .8;
             }
             
         }
@@ -187,6 +267,10 @@ color: white;
             color: #fff;
             font-size: 1.3rem;
             text-decoration: none;
+            transition: all .3s;
+            &:hover{
+                opacity: .8;
+            }
         }
     }
 }
@@ -233,6 +317,61 @@ color: white;
          font-size: 1.1rem;
         }
     }
+    //Music section
+    .music{
+        width: 100%;
+        margin-top: 3rem;
+        .group{
+            .boxs{
+                justify-content: space-around;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                position: relative;
+                justify-content: space-around;
+               .photo2{
+                border: 1px solid white;
+                margin-bottom: .8rem;
+                padding: 0 0 10px 20px ;
+                width: 44%;
+                height: auto;
+                h1{
+                 color: white;
+                 font-size:1.1rem !important ;
+                 margin-top: .6rem;
+                }
+                 span{
+                    color: white;
+                }
+               }
+               
+             }
+           
+        }
+        .group-text{
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 2.4rem !important;
+             }
+             p{
+              margin-top:1rem ;
+              font-size: 1rem;
+              line-height: 1.7rem;
+             }
+             button{
+                 color: white;
+                background-color: transparent;
+                border: 1px solid white;
+                border-radius: 50px;
+                padding: 7px 28px;
+                width: 50%;
+                }
+        }
+    }
+    
     // Third section
     .third{
         .text{
@@ -339,7 +478,7 @@ color: white;
 }
 
 
-//568 to 768
+//568 to 768 SMALL DEVICES
 @media (min-width:568px) and (max-width:767px) {
     .social-media{
         h1{
@@ -349,6 +488,62 @@ color: white;
     .rght{
         display: flex ;
         align-items: flex-start !important;
+}
+.music{
+    width: 100%;
+    margin-top: 2rem;
+    .group{
+        margin-top: 2rem;
+        order: 2;
+        .boxs{
+            justify-content: space-around;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: relative;
+            justify-content: space-around;
+           .photo2{
+            border: 1px solid white;
+            margin-bottom: .8rem;
+            padding: 0 0 10px 20px ;
+            width: 40%;
+            height: auto;
+           }
+            h1{
+             color: white;
+             font-size:1.3rem ;
+             margin-top: .6rem;
+            }
+            span{
+                color: white;
+            }
+         }
+       
+    }
+    .group-text{
+        order: 1;
+        margin-top: 1rem;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: white;
+            font-size: 3.3rem;
+         }
+         p{
+          color: white;
+          margin-top:1rem ;
+          font-size: 1rem;
+          line-height: 1.5rem;
+         }
+         button{
+             margin-top: 1rem;
+            border-radius: 50px;
+            padding: 7px 28px;
+            width: 40%;
+            }
+    }
 }
 }
 
@@ -435,5 +630,58 @@ color: white;
     .right{
         margin-top: 3rem !important; 
      }
+     .music{
+        width: 100%;
+        margin-top:1.5rem ;
+        .group{
+            margin-top: 3rem;
+            order: 2;
+            .boxs{
+                justify-content: space-around;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                position: relative;
+                justify-content: space-around;
+               .photo2{
+                margin-bottom: 1.4rem;
+                padding: 0 0 10px 20px ;
+                width: 42%;
+                height: auto;
+                margin-left: .8rem;
+               }
+                h1{
+                 font-size:1rem ;
+                 margin-top: .6rem;
+                }
+                span{
+                    font-size: .9rem
+                };
+             }
+        }
+        .group-text{
+            order: 1;
+            padding: 20px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                
+                font-size: 2.9rem;
+             }
+             p{
+              
+              margin-top:1rem ;
+              font-size: 1.1rem;
+              line-height: 1.7rem;
+             }
+             button{
+                border-radius: 50px;
+                padding: 7px 28px;
+                width: 60%;
+                }
+        }
+    }
+    
  }
 
